@@ -1,0 +1,21 @@
+{
+  "name": "tlprt",
+  "description": "Technologies teleporter",
+  "version": "0.0.1",
+  "author": "Anton Winogradov <winogradovaa@gmai.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:awinogradov/tlprt.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@bem/deps": "^0.1.1",
+    "bem-naming": "^1.0.1",
+    "bem-walk": "^1.0.0-1",
+    "fs-extra": "^0.30.0",
+    "lodash": "^4.13.1",
+    "stream-to-array": "^2.3.0",
+    "xjst-ddsl": "^0.0.4"
+  },
+  "license": "MIT"
+}

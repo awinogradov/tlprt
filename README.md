@@ -59,3 +59,5 @@ teleport({
   // }
 });
 ```
+
+### License MIT

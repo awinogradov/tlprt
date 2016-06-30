@@ -17,7 +17,7 @@ module.exports = function teleport(opts) {
         .then(css(opts))
         .then(assets => {
             fs.outputFileSync(
-                join(process.cwd(), './.teleport/index.json'),
+                join(opts.exportPath, 'index.json'),
                 JSON.stringify(assets, null, 2)
             );
 

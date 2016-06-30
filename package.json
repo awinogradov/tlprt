@@ -1,7 +1,7 @@
 {
   "name": "tlprt",
   "description": "Technologies teleporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Anton Winogradov <winogradovaa@gmai.com>",
   "repository": {
     "type": "git",

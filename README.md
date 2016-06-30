@@ -48,13 +48,13 @@ teleport({
   //   ]
   // },
   // "combined": {
-  //   "css": "/Users/hero/example/.teleport/islands.css",
+  //   "css": "/Users/hero/example/.teleport/example.css",
   //   "bemhtml.js": [
   //     "/Users/hero/example/common.blocks/button/button.bemhtml.js",
   //     "/Users/hero/example/common.blocks/link/link.bemhtml.js",
   //     "/Users/hero/example/common.blocks/select/select.bemhtml.js"
   //   ],
-  //   "ddsl.js": "/Users/hero/example/.teleport/islands.ddsl.js"
+  //   "ddsl.js": "/Users/hero/example/.teleport/example.ddsl.js"
   // }
   // }
 });

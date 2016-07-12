@@ -15,6 +15,7 @@ teleport({
     platforms: ['desktop'],
     entities: ['button', 'link', 'select'],
     except: ['i-bem', 'ua'],
+    json: true, // generate json file with paths
     levels: {
       desktop: [
         '/Users/hero/example/common.blocks',

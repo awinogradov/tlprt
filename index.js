@@ -2,6 +2,7 @@
 
 const fs = require('fs-extra');
 const join = require('path').join;
+const successSymbol = require('log-symbols').success;
 
 const levelsPaths = require('./lib/paths');
 const entitiesInfo = require('./lib/info');
@@ -16,12 +17,12 @@ module.exports = function teleport(opts) {
         .then(ddsl(opts))
         .then(css(opts))
         .then(assets => {
-            fs.outputFileSync(
-                join(opts.exportPath, 'index.json'),
+            opts.json && fs.outputFileSync(
+                join(opts.exportPath, `${opts.libName}.json`),
                 JSON.stringify(assets, null, 2)
             );
 
-            console.log(`${opts.libName} teleported successfully`);
+            console.log(successSymbol, `${opts.libName} teleported successfully`);
 
             return assets;
         });

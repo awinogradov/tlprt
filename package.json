@@ -16,7 +16,7 @@
     "lodash": "^4.13.1",
     "log-symbols": "^1.0.2",
     "stream-to-array": "^2.3.0",
-    "xjst-ddsl": "^1.0.0"
+    "xjst-ddsl": "awinogradov/xjst-ddsl"
   },
   "license": "MIT"
 }

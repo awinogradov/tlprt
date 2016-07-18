@@ -1,7 +1,7 @@
 {
   "name": "tlprt",
   "description": "Technologies teleporter",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Anton Winogradov <winogradovaa@gmai.com>",
   "repository": {
     "type": "git",
@@ -16,7 +16,7 @@
     "lodash": "^4.13.1",
     "log-symbols": "^1.0.2",
     "stream-to-array": "^2.3.0",
-    "xjst-ddsl": "^0.0.4"
+    "xjst-ddsl": "^1.0.0"
   },
   "license": "MIT"
 }
